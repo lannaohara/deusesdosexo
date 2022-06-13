@@ -1,0 +1,215 @@
+@media (max-width: 1199.98px) { 
+    h3 {
+        font-size: 19px;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    iframe {
+        height: 400px;
+    }
+
+    #video {
+        width: 80%;
+    }
+
+
+    /* DEPOIMENTOS */
+    #depoimentos .btn-color-outline {
+        display: flex;
+        width: 50%;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #slider h1 {
+        font-size: 45px;
+    }
+
+    iframe {
+        height: 340px;
+    }
+
+    .btn-color {
+        width: 300px;
+    }
+
+    /* Sobre */
+    #sobre .grupo-sobre:nth-child(1) {
+        margin-bottom: 10px;
+    }
+
+    /* Depoimentos */
+    #img-menor {
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #slider h1 {
+        font-size: 35px;
+    }
+
+    #video {
+        width: 85%;
+    }
+
+    #slider p {
+        font-size: 22px;
+    }
+
+    .btn-color {
+        font-size: 22px;
+        width: 250px;
+    }
+
+    .btn-danger {
+        height: 50px;
+        font-size: 20px;
+        width: 150px;
+    }
+    .btn-outline-danger {
+        width: 130px;
+    }
+
+    iframe {
+        height: 300px;
+    }
+
+    /* Compra */
+
+    #compra .btn-color {
+        font-size: 20px;
+    }
+
+    #compra .icone-padrao {
+        width: 45px;
+        height: 45px;
+    }
+    /* Sobre */
+    #sobre .grupo-sobre {
+        width: 85%;
+    }
+
+    /* Depoimentos */
+    #depoimentos .btn-color-outline {
+        width: 60%;
+        font-size: 16px;
+    }
+
+    #depoimentos .icone-padrao {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 378px) {
+    #slider h1 {
+        font-size: 25px;
+    }
+
+    #slider h2 {
+        font-size: 22px;
+    }
+
+    #slider h4 {
+        font-size: 19px;
+    }
+
+    #slider p {
+        font-size: 19px;
+    }
+
+    #video {
+        width: 90%;
+    }
+
+    .icone-padrao {
+        width: 50px;
+    }
+    .btn-color {
+        font-size: 19px;
+        width: 190px;
+    }
+    
+    h3 {
+        font-size: 16px;
+    }
+
+    iframe {
+        height: 250px;
+    }
+
+    .img-redimencionar {
+        width: 450px;
+        height: 450px;
+    }
+
+    /* Sobre */
+  
+    #sobre .grupo-sobre {
+        width: 75%;
+        border-radius: 0px;
+        border: solid 7px #e71c1c;;
+        border-right: transparent;
+        border-top: transparent;
+        border-bottom: transparent;
+        box-shadow: none;
+        padding: 5px 15px;
+    }
+
+    #sobre p {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    #sobre h2 {
+        font-size: 18px;
+        text-decoration: underline;
+    }
+
+    /* DEPOIMENTOS */
+    .img-cortar {
+        height: 200px;
+    }
+
+    /* Depoimentos */
+    #depoimentos .btn-color-outline {
+        width: 65%;
+    }
+
+
+    /* RODAPÉ */
+    .logos-rodape a {
+        margin: 0 5px;
+    }
+
+    .logos-rodape img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .logos-rodape a P {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 280px) {
+    #depoimentos .btn-color-outline {
+        width: 70%;
+    }
+
+    .logos-rodape img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .logos-rodape a P {
+        font-size: 12px;
+    }
+}

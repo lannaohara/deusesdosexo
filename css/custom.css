@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Hubballi', cursive;
+    font-weight: 500;
+}
+
+.container .align-self-center h3 {
+    font-size: 20px;
+}
+
+.button {
+    font-weight: 500;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+p {
+    color: white;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: red;
+}
+
+/* Botão Genérico */
+.btn-color {
+    height: 60px;
+    font-size: 30px;
+    background: #0cc015;
+    color: white;
+    transition: ease-out 0.3s;
+}
+
+.btn-color:hover {
+    background: #14aa1c;
+    color: white;
+}
+
+.btn-color:active {
+    background: #1dec28;
+    color: white;
+}
+
+.btn-color:focus {
+    box-shadow: 0 0 0 transparent;
+}
+
+/* SLIDER */
+#slider {
+    background-color: #e71c1c;
+}
+
+#slider p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#slider h1 {
+    font-size: 55px;
+}
+
+#video {
+    width: 80%;
+}
+
+#slider #icone-padrao {
+    width: 50px;
+    height: 50px;
+}
+
+#slider .btn-color {
+    height: 60px;
+    font-size: 30px;
+}
+
+/* SOBRE */
+#sobre .container .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+#sobre .grupo-sobre {
+    border-radius: 5px;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    box-shadow: inset 10px 0px 0px #e71c1c;;
+}
+
+#sobre h2 {
+    color: rgb(255, 255, 255);
+}
+
+#sobre p {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+#texto-copy > p {
+    font-size: 20px;
+}
+
+#texto-copy > .assinatura {
+    font-family: 'Square Peg', cursive;
+    font-size: 25px;
+}
+/* COMPRA */
+#compra {
+    background: #1a1e22;
+}
+
+#compra div p {
+    font-size: 22px;
+}
+
+.img-redimencionar {
+    width: 500px;
+    height: 700px;
+}
+
+#compra .btn-color{
+    font-size: 22px;
+}
+
+#compra .icone-padrao {
+    width: 50px;
+    height: 50px;
+}
+
+/* DEPOIMENTOS */
+
+#depoimentos .depoimento {
+    background-color: var(--light);
+    border-radius: 5px;
+    display: flex;
+    padding: 30px;
+}
+  
+.img-cortar {
+    height: 300px;
+}
+
+.img-cortar img {
+    border-radius: 4px;
+}
+
+.btn-color-outline {
+    background-color: #0cc015;
+    border-color: #14aa1c50;
+    color: white;
+    transition: ease-out 0.3s;
+}
+
+.btn-color-outline:hover {
+    background-color: #14aa1c;
+    border:  1px solid #0cc015;
+    color: white;
+}
+
+.btn-color-outline:active {
+    background-color: #1dec28;
+}
+
+.btn-color-outline:focus {
+    box-shadow: 0 0 0 transparent;
+}
+
+#depoimentos .icone-padrao {
+    width: 50px;
+    height: 50px;
+}
+
+#depoimentos .btn-color-outline {
+    font-size: 20px;
+    width: 30%;
+}
+
+#depoimentos p {
+    font-size: 22px;
+}
+
+/* GARANTIAS */
+
+#garantias {
+    background: #1a1e22;
+}
+
+.div-img-alteracoes {
+    margin-top: 7px;
+}
+
+.img-alinhar-garantia {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+#garantias p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* GRUPO VIP */
+#grupo-vip {
+    padding: 20px 20px;
+}
+
+#grupo-vip span {
+    text-decoration: underline;
+}
+
+.img-alinhar {
+    width: 300px;
+    height: 300px;
+}
+
+#icone-grupo-whats {
+    width: 30px;
+}
+
+#grupo-vip .btn-color {
+    height: 45px;
+    width: 200px;
+    font-size: 16px;
+}
+
+.grupo-vip p {
+    font-size: 20px;
+}
+
+/* Footer */
+
+footer {
+    background: #1a1e22;
+    position: relative;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+}
+ 
+.logos-rodape {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.logos-rodape a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.logos-rodape img {
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+
