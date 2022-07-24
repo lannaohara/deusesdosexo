@@ -182,11 +182,21 @@
         width: 65%;
     }
 
+    /* Grupo vip */
+    #outros-produtos .btn-color {
+        height: max-content;
+        width: fit-content;
+        font-size: 16px;
+    }
+
+    #icone-grupo-whats {
+        width: 25px;
+    }
+
     /* Outros Produtos */
     #outros-produtos p {
         font-size: 18px;
     }
-
 
     #outros-produtos .btn-color {
         height: 35px;
