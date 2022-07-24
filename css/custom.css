@@ -236,10 +236,44 @@ p {
     font-size: 20px;
 }
 
+/* Outros produtos */
+#outros-produtos {
+    background: #1a1e22;
+    padding: 20px 20px;
+}
+
+#outros-produtos p {
+    font-size: 25px;
+}
+
+#outros-produtos .img-alinhar {
+    width: 150px;
+    height: 200px;
+}
+
+#outros-produtos .align-custom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#outros-produtos .btn-color {
+    height: 45px;
+    width: 200px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outros-produtos p {
+    font-size: 20px;
+}
+
 /* Footer */
 
 footer {
-    background: #1a1e22;
+    /* background: #1a1e22; */
     position: relative;
     padding: 10px 0px;
     display: flex;
